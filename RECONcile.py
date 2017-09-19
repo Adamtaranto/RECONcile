@@ -18,7 +18,7 @@ from Bio import SeqIO
 from Bio.Seq import Seq
 
 def dochecks(args):
-	# Check for reference fasa file
+	# Check for reference fasta file
 	if args.inFasta is None:
 		sys.exit('No input fasta provided. Exiting.')
 	# Check for eles file
