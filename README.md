@@ -73,7 +73,7 @@ awk '!/^#/ {print;}' eles | sed 's/\( \)*/\1/g' | cut -d' ' -f 2- > Clean_Eles.t
 **Fetch fragments for each family**  
 
 ```bash
-./RECONcile.py -i Unclustered_candidate_TEs.fa -e Clean_Eles.txt -d output_clusters  
+./RECON_cluster.py -i Unclustered_candidate_TEs.fa -e Clean_Eles.txt -d output_clusters  
 ```  
 
 **Align clustered fragments with MAFFT**  
